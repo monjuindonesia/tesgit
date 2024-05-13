@@ -1,0 +1,53 @@
+{
+    "address" : "jakarta jakarta",
+    "phone" : "0813334546789",
+    "kecamatan_id" : 3908,
+    "packages" : [
+	{
+          "order_id": "BIMS-0000000038",
+          "destination_name": "Flag Test",
+          "destination_phone": "082223323333",
+          "destination_address": "Jl. Magelang KM 11",
+          "destination_kecamatan_id": 2109,
+          "destination_zipcode": 3832,
+          "weight": 520,
+          "width": 8,
+          "height": 8,
+          "length": 1,
+          "item_value": 100000,
+          "shipping_cost": 6500,
+	  "insurance_amount": 0,
+          "service": "idx",
+          "service_type": "00",
+          "item_name": "TEST Item name",
+          "package_type_id": 1,
+	  "cod": 500000,
+	  "drop":false
+        },
+	{
+          "order_id": "BIMS-0000000039",
+          "destination_name": "Flag Test 2",
+          "destination_phone": "082223323333",
+          "destination_address": "Jl. Magelang KM 11",
+          "destination_kecamatan_id": 2109,
+          "destination_zipcode": 3832,
+          "weight": 520,
+          "width": 8,
+          "height": 8,
+          "length": 1,
+          "item_value": 100000,
+          "shipping_cost": 6500,
+	  "insurance_amount": 0,
+          "service": "jne",
+          "service_type": "REG23",
+          "item_name": "TEST Item name",
+          "package_type_id": 1,
+	  "cod": 500000,
+	  "drop":false
+        }
+    ],
+    "name" : "Tes123",
+    "zipcode" : "55598",
+    "platform_name" : "Test api",
+    "schedule" : "2024-02-04 21:00:00"
+}
